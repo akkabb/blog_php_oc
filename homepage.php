@@ -26,7 +26,8 @@
             <nav class="menu">
                 <ul class="menu_list">
                     <li><a href="http://localhost/p5_oc_blog/homepage.php">Accueil</a></li> 
-                    <li><a href="http://localhost/p5_oc_blog/articles.php">Articles</a></li>
+                    <!-- <li><a href="http://localhost/p5_oc_blog/articles.php">Articles</a></li> -->
+                    <li><a href="http://localhost/p5_oc_blog/templates/articles.php">Articles</a></li>
                     <li><a href="http://localhost/p5_oc_blog/login.php">Se connecter</a></li>
                     <li><a href="http://localhost/p5_oc_blog/register.php">S'inscrire</a></li>
                 </ul>

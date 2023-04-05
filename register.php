@@ -102,15 +102,14 @@
 <body>
     <div class="container">
         <header>
-            <a href="">
-                <img src="" alt="">
-            </a>
-            <nav>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+            <a href="#" class="logo_link"><img src="img/logo.png" class="logo" alt="logo"></a>
+            <nav class="menu">
+                <ul class="menu_list">
+                    <li><a href="http://localhost/p5_oc_blog/homepage.php">Accueil</a></li> 
+                    <!-- <li><a href="http://localhost/p5_oc_blog/articles.php">Articles</a></li> -->
+                    <li><a href="http://localhost/p5_oc_blog/templates/articles.php">Articles</a></li>
+                    <li><a href="http://localhost/p5_oc_blog/login.php">Se connecter</a></li>
+                    <li><a href="http://localhost/p5_oc_blog/register.php">S'inscrire</a></li>
                 </ul>
             </nav>
         </header>

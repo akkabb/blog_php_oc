@@ -31,11 +31,17 @@
         </header>
         <main>
             <span>
-
+                <?php
+                    if (isset($_SESSION['loginMessage']))
+                    {
+                        echo $_SESSION['loginMessage'];
+                        unset($_SESSION['loginMessage']);
+                    }
+                ?>
             </span>
             <h2>Tableau de bord</h2>
             <div class="logOutBtn">
-                <a href="logOut.html">Log Out</a>
+                <a href="logOut.php">Log Out</a>
             </div>
         </main>
     </div>
