@@ -1,4 +1,8 @@
 <?php
+//End all session
+session_destroy();
+
+header('location: http://localhost/p5_oc_blog/login.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
